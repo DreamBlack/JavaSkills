@@ -1,10 +1,12 @@
 package com.tips.staticimport;
 
 import static com.tips.staticimport.SourceTool.*;
+
 /**
  * Created by wycheng on 17-1-18.
  */
 public class StaticImport {
+    // Effective Java 2nd Edition. Item 30
     public static void main(String[] args) {
         f();
         System.out.println(SIZE);
