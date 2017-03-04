@@ -5,7 +5,18 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by wycheng on 17-1-18.
+ * *****************************************************************************************
+ * 类描述：
+ *
+ * @author: wycheng
+ * @date： 2017年3月4日 下午6:49:57
+ * @version 1.0
+ *
+ *
+ * Version    Date       ModifiedBy                 Content
+ * -------- ---------    ----------         ------------------------
+ * 1.0      2017年3月4日       chengwenyao                             
+ *******************************************************************************************
  */
 public class CollectionReturn {
     public static final List<Integer> generateList(Integer... a){
