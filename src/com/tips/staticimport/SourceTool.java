@@ -1,7 +1,18 @@
 package com.tips.staticimport;
 
 /**
- * Created by wycheng on 17-1-18.
+ * *****************************************************************************************
+ * 类描述：静态工具类
+ *
+ * @author: wycheng
+ * @date： 2017年3月4日 下午6:56:34
+ * @version 1.0
+ *
+ *
+ * Version    Date       ModifiedBy                 Content
+ * -------- ---------    ----------         ------------------------
+ * 1.0      2017年3月4日       chengwenyao                             
+ *******************************************************************************************
  */
 public class SourceTool {
     public static final int SIZE =7;

@@ -3,7 +3,18 @@ package com.tips.varargument;
 import java.util.Arrays;
 
 /**
- * Created by wycheng on 17-1-18.
+ * *****************************************************************************************
+ * 类描述：测试可变参数功能
+ *
+ * @author: wycheng
+ * @date： 2017年3月4日 下午6:58:20
+ * @version 1.0
+ *
+ *
+ * Version    Date       ModifiedBy                 Content
+ * -------- ---------    ----------         ------------------------
+ * 1.0      2017年3月4日       chengwenyao                             
+ *******************************************************************************************
  */
 public class VarArgument {
     public static int f(int... args) {

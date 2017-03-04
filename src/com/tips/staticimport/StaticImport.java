@@ -3,7 +3,18 @@ package com.tips.staticimport;
 import static com.tips.staticimport.SourceTool.*;
 
 /**
- * Created by wycheng on 17-1-18.
+ * *****************************************************************************************
+ * 类描述：静态导入静态工具类内部的函数及变量
+ *
+ * @author: wycheng
+ * @date： 2017年3月4日 下午6:56:47
+ * @version 1.0
+ *
+ *
+ * Version    Date       ModifiedBy                 Content
+ * -------- ---------    ----------         ------------------------
+ * 1.0      2017年3月4日       chengwenyao                             
+ *******************************************************************************************
  */
 public class StaticImport {
     // Effective Java 2nd Edition. Item 30
