@@ -31,7 +31,7 @@ class Person {
 	public String toString() {
 		return "Person: " + first + " " + last + " " + address;
 	}
-
+	//嵌套类	
 	public static class NullPerson extends Person implements Null {
 		private NullPerson() {
 			super("None", "None", "None");
@@ -91,7 +91,7 @@ class Position {
 
 class Staff extends ArrayList<Position> {
 	private static final long serialVersionUID = 1L;
-
+	//序列化？	
 	public void add(String title, Person person) {
 		add(new Position(title, person));
 	}
@@ -115,6 +115,7 @@ class Staff extends ArrayList<Position> {
 	 */
 
 	public boolean positionAvailable(String title) {
+		//在position中找到一个position,其title与参数相同，且其成员变量person为Null		
 		for (Position p : this) {
 			if (p.getTitle().equals(title) && p.getPerson() == Person.NULL) {
 				return true;
