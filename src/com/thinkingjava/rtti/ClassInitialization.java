@@ -48,6 +48,8 @@ public class ClassInitialization {
 		 * 如果一个值是static final的，也就是说是编译器常量，
 		 * 那么这个值不需要对Initable类进行初始化就可以被读取，
 		 * 这就是staticFinal和staticFinal2的区别
+		 * 这里写的好模糊。
+		 * staticFinal2到运行时才能确定其值，所以加载Initable类时并不能获取该值		
 		 */
 		// 并没有触发初始化
 		System.out.println(Initable.staticFinal); 
@@ -62,6 +64,7 @@ public class ClassInitialization {
 		/**
 		 * 在Java SE5中，Class<?>优于平凡的Class，即便它们是等价的，
 		 * 主要是因为Class<?>告诉编译器我知道自己在做什么
+		 * nani?这句没看懂		
 		 */
 		Class<?> initable3 = Class.forName("com.thinkingjava.rtti.Initable3");
 		System.out.println("After creating Initable3 ref");
